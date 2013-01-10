@@ -1,0 +1,7 @@
+D:\Projects\ConsoleApplication1\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+D:\Projects\ConsoleApplication1\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+D:\Projects\ConsoleApplication1\UnitTestProject1\bin\Debug\ClassLibrary1.dll
+D:\Projects\ConsoleApplication1\UnitTestProject1\bin\Debug\ClassLibrary1.pdb
+D:\Projects\ConsoleApplication1\UnitTestProject1\obj\Debug\UnitTestProject1.csprojResolveAssemblyReference.cache
+D:\Projects\ConsoleApplication1\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+D:\Projects\ConsoleApplication1\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
