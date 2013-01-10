@@ -11,6 +11,8 @@ namespace ClassLibrary1
 
         public static string GetResult(int number, Dictionary<int, string> divisorRules)
         {
+            if (divisorRules == null) throw new ArgumentException("You have no rules. Must be nice...");
+
             foreach (var rule in divisorRules.OrderByDescending(x => x.Key))
             {
                 if (number % rule.Key == 0)

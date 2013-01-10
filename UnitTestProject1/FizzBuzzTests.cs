@@ -96,6 +96,14 @@ namespace UnitTestProject1
         }
 
         [TestMethod]
+        [ExpectedException(typeof(ArgumentException))]
+        public void no_rules_throws_exception()
+        {
+            var result = FizzBuzz.GetResult(1, null);
+        }
+
+        [TestMethod, TestCategory("LongRunning")]
+        [Ignore] // ignored because of the long running process. better to be a one off run to make all other tests faster
         public void running_for_1000000000_times_should_not_throw_outofmemoryexception()
         {
             var result = String.Empty;
