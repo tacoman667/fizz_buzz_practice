@@ -15,10 +15,12 @@ namespace ConsoleApplication1
             var rules = getRules();
 
 
-            for (int i = 1; i < 1000000000; i++)
-            {
-                Console.Out.WriteLine(FizzBuzz.GetResult(i, rules));
-            }
+//            for (int i = 1; i < 100; i++)
+//            {
+//                Console.Out.WriteLine(FizzBuzz.GetResult(i, rules));
+//            }
+
+			FizzBuzz.Run(1, 1000000000, rules, (result) => Console.Out.WriteLine (result));
         }
 
         private static Dictionary<int, string> getRules()
